@@ -1,0 +1,23 @@
+# Python Requirements for H5AD to CSV Conversion (Fixed Version v2.0)
+
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Single-cell analysis
+scanpy>=1.8.0
+
+# System and utilities
+argparse  # Built-in with Python 3.2+
+pathlib   # Built-in with Python 3.4+
+
+# For development and testing (optional)
+pytest>=6.0.0
+
+# Additional dependencies for enhanced performance
+# Fast data processing (optional but recommended)
+# data.table equivalent not needed in Python, pandas is sufficient
+
+# Note: v2.0 fixes f-string syntax error and adds gzip compression
+# No additional requirements beyond standard scipy stack
